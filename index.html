@@ -1,5 +1,34 @@
 <html>
-<body>
-Początek :)
-</body>
+    <body>
+        <h1>Opracowanie Git</h1>
+        <h2>git config --global user.email ""</h2>
+        <p>Powyższa komenda pozwala na konfiguracje adresu email użytkownika.</p>
+        <h2>git commit -a -m ""</h2>
+        <p>Komenda pozwalająca "commitować" zmiany. Parametr -m pozwala dodać opis rewizji.<br />
+        Parametr -a pozwala na przeniesienie śledzonych plików, które zostały zedytowane,<br />
+        do poczekalni.</p>
+        <h2>git diff --staged</h2>
+        <p>Pozwala porównać zmiany między plikami zdalnymi, a plikami przechowywanymi w cache'u.</p>
+        <h2>git log --graph --all</h2>
+        <p>Komenda ta powoduje wyświetlenie historii repozotyrium, czyli commity, merge'e itp.,<br />
+        w postaci sformatowanego grafu tekstowego. Np.<br /><code>
+        *   f19e46d (dev) Merge branch 'master' into dev<br />
+        |\<br />
+        | * 600a33f (HEAD, master) commit<br />
+        * |   c9ccbf1 Merge branch 'master' into dev<br />
+        |\ \<br />
+        | |/<br />
+        | * 4c1fb52 commit<br />
+        * |   dfdcb8a Merge branch 'master' into dev<br />
+        |\ \<br />
+        | |/<br />
+        | * 42b1c24 commit<br />
+        * |   7714be3 Merge branch 'master' into dev<br />
+        |\ \<br />
+        | |/<br />
+        | * f7eae2d commit<br />
+        |/<br />
+        * 885700a initial empty commit<br /></code></p>
+
+    </body>
 </html>
